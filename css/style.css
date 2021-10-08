@@ -1,0 +1,664 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #3941FF;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+}
+
+.img-logo {
+    padding: 18px 0 17px;
+
+}
+
+.link-ul {
+    list-style: none;
+    display: flex;
+
+
+}
+
+.link-a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.list-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-a:hover {
+    background: url("../images/fon.png");
+    color: black;
+}
+
+.link-a:focus {
+    color: yellow;
+}
+
+.link-li {
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 40px;
+
+
+}
+
+.link-li:last-child {
+    margin-right: 0;
+
+}
+
+.hero-button:hover {
+    background: #dd3737;
+}
+
+.hero-button:active {
+    border: 5px solid purple;
+
+}
+
+.hero-button:focus {
+    color: #141414;
+
+}
+
+.hero {
+    height: calc(100vh - 70px);
+    background: linear-gradient(114.08deg, #3941FF 13.97%, #00D1FF 100%), white;
+    min-height: 700px;
+}
+
+.hero-text {
+    color: white;
+    max-width: 320px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 25px;
+}
+
+.hero-info {
+    padding: 166px 0;
+}
+
+.text-hero {
+    max-width: 530px;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 52px;
+
+
+    text-transform: capitalize;
+
+}
+
+.hero-cont {
+    height: 100%;
+    position: relative;
+
+}
+
+.hero-1 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 50px;
+    margin-bottom: 20px;
+
+
+    text-transform: uppercase;
+
+
+}
+
+.hero-2 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 50px;
+    text-transform: uppercase;
+
+
+}
+
+
+.hero-button {
+    Font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 73%;
+    color: #3941FF;
+    padding: 18px 35px;
+    margin-bottom: 360px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+.hero-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.service-text {
+    color: #3941FF;;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+
+}
+
+.border-dog {
+    border: 1px solid #3941FF;
+    padding: 43px 45px 64px;
+    border-radius: 10px;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+
+.colum-dog {
+    margin: 0 auto 42px;
+    background: #3941FF;;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h3-text {
+    margin-bottom: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #0008C7;
+    text-align: center;
+
+}
+
+.p-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4F52A2;
+
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    display: flex;
+    width: 33.333%;
+    padding: 0 15px;
+}
+
+.new-1 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+
+}
+
+.new-2 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.new-p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: rgba(46, 62, 81, 0.74);
+    max-width: 570px;
+    margin-bottom: 32px;
+}
+
+.services {
+    padding: 67px 0 65px;
+}
+
+.new-text {
+    margin-bottom: 17px;
+    padding: 93px 0 0;
+}
+
+.contact-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 10px;
+    border: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #3941FF;
+    border-radius: 30px;
+    padding: 18px 40px;
+    transition: 1s;
+
+}
+
+.border-mini {
+    background: #FFFFFF;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    text-align: center;
+    padding: 31px 20px 32px;
+
+}
+
+.border-mini:hover {
+    background: #00D1FF;
+}
+
+
+.border-mini:hover {
+    box-shadow: 0 0 10px purple;
+}
+
+.contact-1:focus {
+    background: gold;
+    color: black;
+    transition: 0s;
+    transform: translateY(20%);
+
+}
+
+.contact-1:hover {
+    box-shadow: 0 0 5px crimson;
+
+
+}
+
+.-text-span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #2E3E51;
+
+
+}
+
+.span-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #3941FF;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 32px;
+}
+
+.help {
+    padding: 34px 0 49px;
+}
+
+.help-row {
+    margin: 0 -32px;
+    display: flex;
+    align-items: center;
+}
+
+
+.box-mini:first-child {
+    margin-bottom: 47px;
+}
+
+.button-con:focus {
+    background: springgreen;
+    color: #141414;
+
+}
+
+.button-con:hover {
+    box-shadow: 0 0 10px gold;
+}
+
+.fon-blue:nth-child(2) {
+    align-self: end;
+}
+
+.youtube:focus {
+    background: aqua;
+    box-shadow: 0 0 5px firebrick;
+
+
+}
+
+.youtube:hover {
+    background: darkolivegreen;
+    transition: 300ms;
+    transform: rotate(99999999999999deg);
+}
+
+
+.fon-container {
+    background: #1B8EFF;
+    height: 435px;
+
+}
+
+.white-fon {
+    position: relative;
+    background: white;
+    width: 587px;
+    border-radius: 50%;
+}
+
+
+.vec-cont {
+    position: absolute;
+    top: 47px;
+    left: 29px;
+}
+
+.now-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+
+
+}
+
+.now-2 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: white;
+
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: revert;
+
+
+}
+
+
+.button-con {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    color: #1B8EFF;
+    padding: 18px 67px;
+    border-radius: 30px;
+    border: none;
+
+
+}
+
+.button-none {
+    padding: 0 250px;
+    margin-right: -250px;
+}
+
+
+.span-none2 {
+    padding: 0 180px;
+    margin-right: -180px;
+    margin-bottom: 66px;
+}
+
+.span-none {
+    padding: 78px 20px 0;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #2E3E51;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.because-text {
+    max-width: 977px;
+    margin: 0 auto 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 36px;
+    font-size: 34px;
+    height: 76px;
+    color: rgba(46, 62, 81, 0.82);
+    text-align: center;
+
+
+}
+
+.why-text {
+    padding: 114px 0 95px;
+}
+
+.bac-tex {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #3941FF;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+}
+
+.widgt-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 730px;
+    height: 204px;
+    margin: 0 auto;
+
+
+}
+
+.fon-blue {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background: #3941FF;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.one {
+    font-family: "Pacifico", cursive;
+
+    font-size: 117px;
+    line-height: 120px;
+    color: #FFFFFF;
+
+}
+
+.lapa-1 {
+    position: absolute;
+    right: -15px;
+    bottom: 33px;
+    transform: matrix(-0.97, -0.24, -0.24, 0.97, 0, 0);
+}
+
+.lapa-2 {
+    position: absolute;
+    left: -16px;
+    bottom: 30px;
+    transform: matrix(-0.87, -0.5, -0.5, 0.87, 0, 0);
+}
+
+.lapa-3 {
+    position: absolute;
+    left: -9px;
+    bottom: 30px;
+    transform: matrix(-0.97, -0.24, -0.24, 0.97, 0, 0);
+
+}
+
+
+.posiction-reletive {
+    position: relative;
+}
+
+.paw-dog {
+    position: absolute;
+    right: 0;
+    bottom: -127px;
+    z-index: 1;
+}
+
+footer {
+    background: #3941FF;
+    padding: 57px 0 22px;
+
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 56px;
+
+}
+
+
+.number {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+
+}
+
+.youtube {
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6px;
+}
+
+.youtube-tviter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-img {
+    padding: 14px 20px;
+    border: none;
+    font-size: 12px;
+    border-radius: 30px 0 0 30px;
+    height: 100%;
+}
+
+.button-input {
+    background: #F58F00;
+    border-radius: 0 30px 30px 0;
+    border: none;
+
+}
+
+.button-img {
+    padding: 11px 10px;
+
+}
+
+.input-button {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-end {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
+
+
+}
